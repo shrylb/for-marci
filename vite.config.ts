@@ -5,6 +5,7 @@ import { createServer } from "./server";
 
 export default defineConfig(({ mode }) => ({
   server: {
+    homepage: '/for-marci/',
     host: "::",
     port: 8080,
     fs: {
