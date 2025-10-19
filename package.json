@@ -20,7 +20,7 @@
     "test": "vitest --run",
     "format.fix": "prettier --write .",
     "typecheck": "tsc",
-    "predeploy": "npm build",
+    "predeploy": "npm run dev",
     "deploy": "gh-pages -d dist/spa"
   },
   "dependencies": {
